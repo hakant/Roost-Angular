@@ -19,9 +19,26 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
-        "styles.css"
+        "styles.css",
+        "../roost-template/vendors/bower_components/material-design-iconic-font/dist/css/material-design-iconic-font.min.css",
+        "../roost-template/vendors/bower_components/animate.css/animate.min.css",
+        "../roost-template/vendors/bower_components/select2/dist/css/select2.min.css",
+        "../roost-template/vendors/bower_components/slick-carousel/slick/slick.css",
+        "../roost-template/vendors/bower_components/nouislider/distribute/nouislider.min.css",
+        "../roost-template/css/app_1.min.css",
+        "../roost-template/css/app_2.min.css"
       ],
-      "scripts": [],
+      "scripts": [
+        "../roost-template/js/page-loader.min.js",
+        "../roost-template/vendors/bower_components/jquery/dist/jquery.min.js",
+        "../roost-template/vendors/bower_components/bootstrap/dist/js/bootstrap.min.js",
+        "../roost-template/vendors/bower_components/Waves/dist/waves.min.js",
+        "../roost-template/vendors/bower_components/select2/dist/js/select2.full.min.js",
+        "../roost-template/vendors/bower_components/slick-carousel/slick/slick.min.js",
+        "../roost-template/vendors/bower_components/nouislider/distribute/nouislider.min.js",
+        "../roost-template/js/app.min.js",
+        "../roost-template/js/demo/demo.js"
+      ],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",
