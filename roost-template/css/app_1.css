@@ -12910,7 +12910,7 @@ a {
 }
 
 .header--minimal {
-  background: #3F51B5 url(../img/patterns/header_pattern.png) repeat-x bottom 20px left;
+  background: #3F51B5 url(../../src/assets/img/patterns/header_pattern.png) repeat-x bottom 20px left;
   padding-bottom: 30px;
 }
 
