@@ -29,7 +29,6 @@
         "../roost-template/css/app_2.min.css"
       ],
       "scripts": [
-        "../roost-template/js/page-loader.min.js",
         "../node_modules/jquery/dist/jquery.min.js",
         "../node_modules/bootstrap/dist/js/bootstrap.min.js",
         "../roost-template/vendors/bower_components/Waves/dist/waves.min.js",
