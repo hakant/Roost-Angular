@@ -1,19 +1,27 @@
-import { browser, by, element } from 'protractor';
+import { browser, by, element, ElementArrayFinder, ElementFinder } from 'protractor';
 
 export class AppPage {
   navigateTo() {
     return browser.get('/');
   }
 
-  getLogoTextHeader() {
-    return this.getLogoTexts().first().getText();
+  async getLogoTextHeader() {
+    const texts = await this.getLogoTexts();
+    return texts[0].getText();
   }
 
-  getLogoTextSubHeader() {
-    return this.getLogoTexts().last().getText();
+  async getLogoTextSubHeader() {
+    const texts = await this.getLogoTexts();
+    return texts[1].getText();
   }
 
-  private getLogoTexts() {
-    return element.all(by.css('app-header .logo__text span'));
+  private async getLogoTexts(): Promise<ElementFinder[]> {
+    const logoTextComponents = element.all(by.css('app-header .logo__text span'));
+
+    if (await logoTextComponents.count() < 2) {
+      throw new Error('Can not find logo text.');
+    }
+
+    return logoTextComponents;
   }
 }
