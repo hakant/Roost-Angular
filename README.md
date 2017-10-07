@@ -1,3 +1,5 @@
+https://ci.appveyor.com/api/projects/status/m4dcvas7sipg5iqn?svg=true
+
 # RoostAngular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.3.0.
