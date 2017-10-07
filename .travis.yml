@@ -20,6 +20,6 @@ before_script:
 - npm install
 
 script: 
-- npm test -- --watch=false
-- npm e2e
-- npm build
+- npm run test -- --watch=false
+- npm run e2e
+- npm run build
