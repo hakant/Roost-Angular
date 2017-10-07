@@ -13,6 +13,7 @@ test_script:
   - node --version
   - npm --version
   - npm run test -- --watch=false
+  - npm run e2e
 
 build: off
 
