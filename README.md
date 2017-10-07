@@ -1,6 +1,6 @@
-<img src="https://ci.appveyor.com/api/projects/status/m4dcvas7sipg5iqn?svg=true">
+[![TravisCI Build Status](https://travis-ci.org/hakant/Roost-Angular.svg?branch=master)](https://travis-ci.org/hakant/Roost-Angular)
 
-[![Build Status](https://travis-ci.org/hakant/Roost-Angular.svg?branch=master)](https://travis-ci.org/hakant/Roost-Angular)
+[![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/m4dcvas7sipg5iqn?svg=true)](https://ci.appveyor.com/project/hakant/roost-angular)
 
 # RoostAngular
 
