@@ -1,4 +1,4 @@
-https://ci.appveyor.com/api/projects/status/m4dcvas7sipg5iqn?svg=true
+<img src="https://ci.appveyor.com/api/projects/status/m4dcvas7sipg5iqn?svg=true">
 
 # RoostAngular
 
