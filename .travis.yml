@@ -23,13 +23,13 @@ before_script:
 - npm install
 
 script: 
-- npm run test -- --watch=false
-- npm run e2e
+# - npm run test -- --watch=false
+# - npm run e2e
 - npm run build
 
 after_success:
   - if [ "$TRAVIS_BRANCH" == "master" ]; then
-    docker build -t hakant/roost-angular -f ./.docker/nginx.dockerfile .
+    docker build -t hakant/roost-angular -f ./.docker/nginx.dockerfile .;
     docker login -u="$DOCKER_USERNAME" -p="$DOCKER_PASSWORD";
     docker push hakant/roost-angular;
     fi
