@@ -23,8 +23,8 @@ before_script:
 - npm install
 
 script: 
-# - npm run test -- --watch=false
-# - npm run e2e
+- npm run test -- --watch=false
+- npm run e2e
 - npm run build
 
 after_success:
