@@ -28,8 +28,9 @@ script:
 
 after_success:
   - if [ "$TRAVIS_BRANCH" == "master" ]; then
-    npm run build
+    npm run build;
     docker build -t hakant/roost-angular -f ./.docker/nginx.dockerfile .;
+    docker tag hakant/roost-angular hakant/roost-angular:$(git rev-parse --short HEAD);
     docker login -u="$DOCKER_USERNAME" -p="$DOCKER_PASSWORD";
     docker push hakant/roost-angular;
     fi
