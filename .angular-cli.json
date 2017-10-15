@@ -32,6 +32,7 @@
         "../node_modules/jquery/dist/jquery.min.js",
         "../node_modules/bootstrap/dist/js/bootstrap.min.js",
         "../roost-template/vendors/bower_components/Waves/dist/waves.min.js",
+        "../roost-template/vendors/bower_components/Waves/dist/waves.js",
         "../node_modules/select2/dist/js/select2.full.min.js",
         "../node_modules/slick-carousel/slick/slick.min.js",
         "../node_modules/nouislider/distribute/nouislider.min.js",
