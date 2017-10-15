@@ -10,7 +10,7 @@ describe('roost-angular App', () => {
   it('should have a correct logo text', async () => {
     homePage.navigateTo();
     expect(await homePage.getLogoTextHeader()).toEqual('ROOST');
-    expect(await homePage.getLogoTextSubHeader()).toEqual('Material Design Real Estate');
+    expect(await homePage.getLogoTextSubHeader()).toEqual('Material Design Real Estate - V1');
   });
 
   it('recommended property should have the correct properties', async () => {
