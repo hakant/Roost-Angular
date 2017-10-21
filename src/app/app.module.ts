@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
@@ -13,6 +14,8 @@ import { CardRecentRentComponent } from './card-recent-rent/card-recent-rent.com
 import { CardTopLocationsComponent } from './card-top-locations/card-top-locations.component';
 import { CardPropertiesAgentsComponent } from './card-properties-agents/card-properties-agents.component';
 import { HomeTotalTitleComponent } from './home-total-title/home-total-title.component';
+
+import { PropertyService } from './services/property.service';
 
 @NgModule({
   declarations: [
@@ -30,9 +33,12 @@ import { HomeTotalTitleComponent } from './home-total-title/home-total-title.com
     HomeTotalTitleComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [
+    PropertyService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { PropertyService } from '../../services/property.service';
+import { Property } from '../../models/property';
 
 @Component({
   selector: 'app-header-recommended',
@@ -7,9 +9,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderRecommendedComponent implements OnInit {
 
-  constructor() { }
+  properties: Array<Property>;
+
+  constructor(private propertyService: PropertyService) { }
 
   ngOnInit() {
+    this.propertyService.requestProperties().subscribe(
+      data => {
+        this.properties = data.list;
+      });
   }
-
 }

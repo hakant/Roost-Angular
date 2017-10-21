@@ -1,4 +1,7 @@
 import { TestBed, ComponentFixture, async } from '@angular/core/testing';
+import { HttpClientModule } from '@angular/common/http';
+
+import { PropertyService } from './services/property.service';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
@@ -33,7 +36,9 @@ describe('AppComponent', () => {
         CardTopLocationsComponent,
         CardPropertiesAgentsComponent,
         HomeTotalTitleComponent
-      ]
+      ],
+      providers: [ PropertyService ],
+      imports: [HttpClientModule]
     }).compileComponents();
   }));
 
