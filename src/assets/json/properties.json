@@ -1,0 +1,108 @@
+{
+    "list": [
+        {
+            "thumbnail-image": "1.jpg",
+            "address": "21 Shop St, San Francisco",
+            "description": "Integer tempor luctus maximus",
+            "price": 1175000,
+            "beds": 3,
+            "baths": 2,
+            "parking": 2,
+            "images": [],
+            "for-rent": false,
+            "for-sale": true,
+            "city": "San Francisco"
+        },
+        {
+            "thumbnail-image": "2.jpg",
+            "address": "Beverly Hills, CA 90210",
+            "description": "Duis sollicitudin ante bibendum",
+            "price": 1200000,
+            "beds": 3,
+            "baths": 3,
+            "parking": 1,
+            "images": [],
+            "for-rent": false,
+            "for-sale": true,
+            "city": "Beverly Hills"
+        },
+        {
+            "thumbnail-image": "3.jpg",
+            "address": "132 04th St, San Francisco",
+            "description": "Fusce quis libero nonorcious",
+            "price": 910000,
+            "beds": 2,
+            "baths": 1,
+            "parking": 1,
+            "images": [],
+            "for-rent": false,
+            "for-sale": true,
+            "city": "San Francisco"
+        },
+        {
+            "thumbnail-image": "4.jpg",
+            "address": "132 Lockslee, San Francisco",
+            "description": "Pellentesque habitant",
+            "price": 2542000,
+            "beds": 5,
+            "baths": 3,
+            "parking": 3,
+            "images": [],
+            "for-rent": false,
+            "for-sale": true,
+            "city": "San Francisco"
+        },
+        {
+            "thumbnail-image": "5.jpg",
+            "address": "San Francisco, CA 900212",
+            "description": "Maecenas sed purus lorem aliquet cursus",
+            "price": 823000,
+            "beds": 1,
+            "baths": 1,
+            "parking": 0,
+            "images": [],
+            "for-rent": false,
+            "for-sale": true,
+            "city": "San Francisco"
+        },
+        {
+            "thumbnail-image": "6.jpg",
+            "address": "21120 Broadway St, San Fransisco",
+            "description": "Maecenas sed purus at lorem",
+            "price": 1120000,
+            "beds": 3,
+            "baths": 2,
+            "parking": 2,
+            "images": [],
+            "for-rent": false,
+            "for-sale": true,
+            "city": "San Francisco"
+        },
+        {
+            "thumbnail-image": "7.jpg",
+            "address": "San Francisco, CA 937202",
+            "description": "Nullam finibus libero at hendrerit",
+            "price": 3000000,
+            "beds": 6,
+            "baths": 5,
+            "parking": 2,
+            "images": [],
+            "for-rent": false,
+            "for-sale": true,
+            "city": "San Francisco"
+        },
+        {
+            "thumbnail-image": "8.jpg",
+            "address": "4313 Beverly Hills, CA 90210",
+            "description": "Test Description",
+            "price": 1175000,
+            "beds": 3,
+            "baths": 2,
+            "parking": 2,
+            "images": [],
+            "for-rent": false,
+            "for-sale": true,
+            "city": "Beverly Hills"
+        }
+    ]
+}
