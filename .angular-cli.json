@@ -35,7 +35,7 @@
         "../node_modules/select2/dist/js/select2.full.min.js",
         "../node_modules/slick-carousel/slick/slick.min.js",
         "../node_modules/nouislider/distribute/nouislider.min.js",
-        "../roost-template/js/app.min.js",
+        "../roost-template/js/app.js",
         "../roost-template/js/demo/demo.js"
       ],
       "environmentSource": "environments/environment.ts",
