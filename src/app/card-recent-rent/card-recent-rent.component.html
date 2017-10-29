@@ -1,23 +1,23 @@
 <div class="card">
-  <div class="card__header card__header--minimal">
-    <h2>Recent Properties for Rent</h2>
-    <small>Suspendisse quis massa fringilla sagittis velit utultrices tellus</small>
-  </div>
-
-  <div class="grid-widget grid-widget--listings">
-    <div *ngFor="let property of recentPropertiesForRent" class="col-xs-6">
-            <a class="grid-widget__item" href="listing-detail.html">
-                    <img src="./assets/demo-images/listings/{{property.thumbnail}}" 
-                        width="400" height="266" class="img-responsive" alt="">
-                    <div class="grid-widget__info">
-                        <h3>{{property.price | currency:'USD':true}}</h3>
-                        <small>{{property.address}}</small>
-                    </div>
-                </a>
+    <div class="card__header card__header--minimal">
+        <h2>Recent Properties for Rent</h2>
+        <small>Suspendisse quis massa fringilla sagittis velit utultrices tellus</small>
     </div>
-  </div>
 
-  <a class="view-more" href="grid-listings.html">
-                  View all properties for rent <i class="zmdi zmdi-long-arrow-right"></i>
-              </a>
+    <div class="grid-widget grid-widget--listings">
+        <div *ngFor="let property of recentPropertiesForRent" class="col-xs-6">
+            <a class="grid-widget__item" href="listing-detail.html">
+                <img src="./assets/demo-images/listings/{{property.thumbnail}}" width="400" height="266" class="img-responsive" alt="">
+                <div class="grid-widget__info">
+                    <h3>{{property.price | currency:'USD':true}}</h3>
+                    <small>{{property.address}}</small>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <a class="view-more" href="grid-listings.html">
+        View all properties for rent
+        <i class="zmdi zmdi-long-arrow-right"></i>
+    </a>
 </div>

@@ -2,7 +2,6 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs/Observable';
 import 'rxjs/add/operator/map';
-import 'rxjs/add/operator/take';
 
 import { Property, SaleType } from '../models/property';
 import { PropertyResponse } from '../models/property-response';
@@ -25,8 +24,9 @@ export class PropertyService {
     return this.http.get<PropertyResponse>('/api/properties.json').map((response) => {
       return response.list
       .filter(p => type === SaleType.Sale ? p.sale : p.rent)
-      .sort((a, b) => new Date(a.meta.dateAdded).getTime() - new Date(b.meta.dateAdded).getTime());
-    }).take(4);
+      .sort((a, b) => new Date(b.meta.dateAdded).getTime() - new Date(a.meta.dateAdded).getTime())
+      .slice(0, 4);
+    });
   }
 }
 
