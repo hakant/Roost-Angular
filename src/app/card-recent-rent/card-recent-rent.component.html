@@ -5,41 +5,15 @@
   </div>
 
   <div class="grid-widget grid-widget--listings">
-    <div class="col-xs-6">
-      <a class="grid-widget__item" href="listing-detail.html">
-                          <img src="https://placeholdit.imgix.net/~text?&w=400&h=266" class="img-responsive" alt="">
-                          <div class="grid-widget__info">
-                              <h3>$1,810,000</h3>
-                              <small>4313 Beverly Hills, CA 90210</small>
-                          </div>
-                      </a>
-    </div>
-    <div class="col-xs-6">
-      <a class="grid-widget__item" href="listing-detail.html">
-                          <img src="https://placeholdit.imgix.net/~text?&w=400&h=266" alt="">
-                          <div class="grid-widget__info">
-                              <h3>$1,782,890</h3>
-                              <small>700 Folcon St, San Fransisco, CA</small>
-                          </div>
-                      </a>
-    </div>
-    <div class="col-xs-6">
-      <a class="grid-widget__item" href="listing-detail.html">
-                          <img src="https://placeholdit.imgix.net/~text?&w=400&h=266" alt="">
-                          <div class="grid-widget__info">
-                              <h3>$823,000</h3>
-                              <small>1100 Sea avn, San Fransisco, CA</small>
-                          </div>
-                      </a>
-    </div>
-    <div class="col-xs-6">
-      <a class="grid-widget__item" href="listing-detail.html">
-                          <img src="https://placeholdit.imgix.net/~text?&w=400&h=266" alt="">
-                          <div class="grid-widget__info">
-                              <h3>$2,543,000</h3>
-                              <small>132 04th St, San Francisco</small>
-                          </div>
-                      </a>
+    <div *ngFor="let property of recentPropertiesForRent" class="col-xs-6">
+            <a class="grid-widget__item" href="listing-detail.html">
+                    <img src="./assets/demo-images/listings/{{property.thumbnail}}" 
+                        width="400" height="266" class="img-responsive" alt="">
+                    <div class="grid-widget__info">
+                        <h3>{{property.price | currency:'USD':true}}</h3>
+                        <small>{{property.address}}</small>
+                    </div>
+                </a>
     </div>
   </div>
 

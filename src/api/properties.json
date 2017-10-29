@@ -11,7 +11,10 @@
             "images": [],
             "rent": false,
             "sale": true,
-            "city": "San Francisco"
+            "city": "San Francisco",
+            "meta": {
+                "dateAdded": "2017-08-29T10:38:50.872Z"
+            }
         },
         {
             "thumbnail": "2.jpg",
@@ -24,7 +27,10 @@
             "images": [],
             "rent": false,
             "sale": true,
-            "city": "Beverly Hills"
+            "city": "Beverly Hills",
+            "meta": {
+                "dateAdded": "2017-09-19T11:28:52.872Z"
+            }
         },
         {
             "thumbnail": "3.jpg",
@@ -37,7 +43,10 @@
             "images": [],
             "rent": false,
             "sale": true,
-            "city": "San Francisco"
+            "city": "San Francisco",
+            "meta": {
+                "dateAdded": "2017-10-29T10:38:50.872Z"
+            }
         },
         {
             "thumbnail": "4.jpg",
@@ -50,7 +59,10 @@
             "images": [],
             "rent": false,
             "sale": true,
-            "city": "San Francisco"
+            "city": "San Francisco",
+            "meta": {
+                "dateAdded": "2017-10-12T13:28:50.872Z"
+            }
         },
         {
             "thumbnail": "5.jpg",
@@ -63,7 +75,10 @@
             "images": [],
             "rent": false,
             "sale": true,
-            "city": "San Francisco"
+            "city": "San Francisco",
+            "meta": {
+                "dateAdded": "2017-09-15T19:22:31.872Z"
+            }
         },
         {
             "thumbnail": "6.jpg",
@@ -76,7 +91,10 @@
             "images": [],
             "rent": false,
             "sale": true,
-            "city": "San Francisco"
+            "city": "San Francisco",
+            "meta": {
+                "dateAdded": "2017-10-22T17:02:21.000Z"
+            }
         },
         {
             "thumbnail": "7.jpg",
@@ -89,12 +107,15 @@
             "images": [],
             "rent": false,
             "sale": true,
-            "city": "San Francisco"
+            "city": "San Francisco",
+            "meta": {
+                "dateAdded": "2017-08-09T22:11:11.800Z"
+            }
         },
         {
             "thumbnail": "8.jpg",
             "address": "4313 Beverly Hills, CA 90210",
-            "description": "Test Description",
+            "description": "Et harum quidem rerum facilis est et expedita distinctio",
             "price": 1175000,
             "beds": 3,
             "baths": 2,
@@ -102,7 +123,138 @@
             "images": [],
             "rent": false,
             "sale": true,
-            "city": "Beverly Hills"
+            "city": "Beverly Hills",
+            "meta": {
+                "dateAdded": "2017-10-27T13:33:23.474Z"
+            }
+        },
+        {
+            "thumbnail": "9.jpg",
+            "address": "7312 Beverly Hills, CA 92412",
+            "description": "aut rerum necessitatibus saepe eveniet",
+            "price": 3452000,
+            "beds": 8,
+            "baths": 4,
+            "parking": 4,
+            "images": [],
+            "rent": false,
+            "sale": true,
+            "city": "Beverly Hills",
+            "meta": {
+                "dateAdded": "2017-10-02T11:25:53.427Z"
+            }
+        },
+        {
+            "thumbnail": "10.jpg",
+            "address": "San Francisco, CA 937212",
+            "description": "Itaque earum rerum hic tenetur a sapiente delectus",
+            "price": 990000,
+            "beds": 4,
+            "baths": 2,
+            "parking": 2,
+            "images": [],
+            "rent": false,
+            "sale": true,
+            "city": "Beverly Hills",
+            "meta": {
+                "dateAdded": "2017-09-23T23:12:44.052Z"
+            }
+        },
+        {
+            "thumbnail": "11.jpg",
+            "address": "Phoenix, AZ 85067",
+            "description": "Dolore magnam aliquam quaerat voluptatem",
+            "price": 1650690,
+            "beds": 2,
+            "baths": 2,
+            "parking": 2,
+            "images": [],
+            "rent": false,
+            "sale": true,
+            "city": "Phoenix",
+            "meta": {
+                "dateAdded": "2017-10-19T18:47:56.276Z"
+            }
+        },
+        {
+            "thumbnail": "12.jpg",
+            "address": "Vegas Boulevard, Las Vegas, NE",
+            "description": "Nam libero tempore, cum soluta nobis est eligendi ",
+            "price": 1810000,
+            "beds": 6,
+            "baths": 3,
+            "parking": 4,
+            "images": [],
+            "rent": true,
+            "sale": false,
+            "city": "Las Vegas",
+            "meta": {
+                "dateAdded": "2017-10-28T18:42:22.229Z"
+            }
+        },
+        {
+            "thumbnail": "13.jpg",
+            "address": "700 Folcon St, San Francisco, CA",
+            "description": "At vero eos et accusamus et iusto odio dignissimos",
+            "price": 1782000,
+            "beds": 4,
+            "baths": 2,
+            "parking": 2,
+            "images": [],
+            "rent": true,
+            "sale": false,
+            "city": "San Francisco",
+            "meta": {
+                "dateAdded": "2017-10-29T08:00:02.002Z"
+            }
+        },
+        {
+            "thumbnail": "14.jpg",
+            "address": "San Francisco, CA 937212",
+            "description": "Itaque earum rerum hic tenetur a sapiente delectus",
+            "price": 990000,
+            "beds": 4,
+            "baths": 2,
+            "parking": 2,
+            "images": [],
+            "rent": false,
+            "sale": true,
+            "city": "Beverly Hills",
+            "meta": {
+                "dateAdded": "2017-10-05T20:38:50.872Z"
+            }
+        },
+        {
+            "thumbnail": "15.jpg",
+            "address": "Los Angeles, CA 394054",
+            "description": "sed quia non numquam eius modi tempora incidunt",
+            "price": 823000,
+            "beds": 4,
+            "baths": 2,
+            "parking": 2,
+            "images": [],
+            "rent": true,
+            "sale": false,
+            "city": "Los Angeles",
+            "meta": {
+                "dateAdded": "2017-10-29T23:38:50.872Z"
+            }
+        },
+        {
+            "thumbnail": "16.jpg",
+            "address": "Lost Angeles, CA 743944",
+            "description": "aut fugit, sed quia consequuntur magni dolores",
+            "price": 2543000,
+            "beds": 3,
+            "baths": 2,
+            "parking": 3,
+            "images": [],
+            "rent": true,
+            "sale": false,
+            "city": "Los Angeles",
+            "meta": {
+                "dateAdded": "2017-10-26T12:55:55.555Z"
+            }
         }
     ]
 }

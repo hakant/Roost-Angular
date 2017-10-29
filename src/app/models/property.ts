@@ -10,4 +10,12 @@ export interface Property {
     rent: boolean;
     sale: boolean;
     city: string;
+    meta: {
+        dateAdded: string;
+    };
+}
+
+export enum SaleType {
+    Sale,
+    Rent
 }
