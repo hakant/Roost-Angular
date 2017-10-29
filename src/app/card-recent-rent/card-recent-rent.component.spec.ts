@@ -1,4 +1,7 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { HttpClientModule } from '@angular/common/http';
+
+import { PropertyService } from '../services/property.service';
 
 import { CardRecentRentComponent } from './card-recent-rent.component';
 
@@ -8,9 +11,11 @@ describe('CardRecentRentComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ CardRecentRentComponent ]
+      declarations: [CardRecentRentComponent],
+      imports: [HttpClientModule],
+      providers: [PropertyService]
     })
-    .compileComponents();
+      .compileComponents();
   }));
 
   beforeEach(() => {

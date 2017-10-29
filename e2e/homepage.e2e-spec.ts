@@ -23,10 +23,17 @@ describe('roost-angular App', () => {
     expect(property.numberOfBathrooms).toBe(2);
     expect(property.numberOfParking).toBe(2);
 
-    property = properties.filter(p => p.address === 'Beverly Hills, CA 90210')[0];
-    expect(property.price).toBe('$1,200,000.00');
-    expect(property.numberOfBedrooms).toBe(3);
-    expect(property.numberOfBathrooms).toBe(3);
-    expect(property.numberOfParking).toBe(1);
+    property = properties.filter(p => p.address === 'San Francisco, CA 937212')[0];
+    expect(property.price).toBe('$990,000.00');
+    expect(property.numberOfBedrooms).toBe(4);
+    expect(property.numberOfBathrooms).toBe(2);
+    expect(property.numberOfParking).toBe(2);
+  });
+
+  it('all recommended houses are by default from San Francisco', async () => {
+    homePage.navigateTo();
+    const properties = await homePage.getRecommendedProperties();
+
+    expect(properties.every(p => p.address.indexOf('San Francisco') > -1)).toBe(true);
   });
 });
