@@ -12,14 +12,15 @@ declare let $: any;
 export class HeaderRecommendedComponent implements OnInit {
 
   properties: Array<Property>;
+  currentLocation = 'San Francisco';
 
   constructor(private propertyService: PropertyService) { }
 
   ngOnInit() {
-    this.propertyService.requestProperties().subscribe(
+    this.propertyService.requestPropertiesNearBy(this.currentLocation).subscribe(
       data => {
-        this.properties = data.list;
-        // @hakant: Can you find a better way for doing this?
+        this.properties = data;
+        // @hakant: Can you find a better way of doing this?
         // setTimeout makes sure the enableSlick function runs after the view is rendered
         setTimeout(this.enableSlick, 0);
       });
